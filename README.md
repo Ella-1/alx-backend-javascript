@@ -1,1 +1,1 @@
-Javascript repository for alx for backend specization
+Javascript repository for alx backend specization
