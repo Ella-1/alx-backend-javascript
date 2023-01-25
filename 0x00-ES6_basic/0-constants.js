@@ -1,4 +1,3 @@
-/* eslint-disable */
 export function taskFirst() {
   const = 'I prefer const when I can.';
   return task;
