@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const getListStudents = () => {
   const students = [];
   const student_1 = { id: 1, firstName: 'Guillaume', location: 'San Francisco' };
