@@ -1,8 +1,10 @@
-/* eslint-disable linebreak-style */
-const hasValuesFromArray = (aSet, anArr) => {
-  const arr = Array.from(aSet);
-
-  return arr.includes(...anArr);
+const hasValuesFromArray = (set, array) => {
+  for (const item of array) {
+    if (!set.has(item)) {
+      return false;
+    }
+  }
+  return true;
 };
 
 export default hasValuesFromArray;
